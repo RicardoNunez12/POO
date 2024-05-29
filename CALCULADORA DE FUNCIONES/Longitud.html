@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Longitud</title>
+    <link rel="stylesheet" href="./stylelongitud.css"
+</head>
+<body>
+    <div id="regresar1">
+    <button type="button" onclick=""><a href="./index.html">Regresar al inicio</a></button>
+    </div>
+    <input type="number" id="num1" placeholder="Valor a convertir">
+    <select id="unidadOrigen">
+        <option value="kilometro">Kilómetro</option>
+        <option value="metro">Metro</option>
+        <option value="centimetro">Centímetro</option>
+        <option value="milimetro">Milímetro</option>
+        <option value="milla">Milla</option>
+        <option value="yarda">Yarda</option>
+        <option value="pie">Pie</option>
+        <option value="pulgada">Pulgada</option>
+    </select>
+    <select id="unidadDestino">
+        <option value="kilometro">Kilómetro</option>
+        <option value="metro">Metro</option>
+        <option value="centimetro">Centímetro</option>
+        <option value="milimetro">Milímetro</option>
+        <option value="milla">Milla</option>
+        <option value="yarda">Yarda</option>
+        <option value="pie">Pie</option>
+        <option value="pulgada">Pulgada</option>
+    </select>
+    <button onclick="realizarConversion()">Convertir</button>
+    <div id="resultado"></div>
+
+    <script src="./actionslongitud.js"></script>
+</body>
+</html>
