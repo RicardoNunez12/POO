@@ -1,0 +1,47 @@
+body{
+    background-image: url('https://www.shutterstock.com/image-photo/office-leather-desk-table-calculator-600nw-516570586.jpg');
+    background-position: center;
+    background-size: cover;
+}
+#container{
+    border: 2px black dashed;
+    background-color: grey;
+    width: 400px;
+    margin-left: 500px;
+    margin-top: 200px;
+    height: 300px;
+    border-radius: 3%;
+}
+#title{
+    margin-left: 150px;
+}
+#input{
+    margin-left: 100px;
+}
+#suma{
+    margin-left: 150px;
+}
+#multi{
+    margin-left: 150px;
+}
+#dividir{
+    margin-left: 150px;
+}
+#resta{
+    margin-left: 150px;
+}
+#porcen{
+    margin-left: 150px;
+}
+#poten{
+    margin-left: 150px;            
+}
+#resultado{
+    margin-left: 100px;
+}
+#maxmin{
+    margin-left: 95px;
+}
+#regreso{
+    margin-left: 135px;
+}
